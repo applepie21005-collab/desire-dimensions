@@ -1,0 +1,26 @@
+{
+  "name": "desire-dimensions",
+  "version": "0.1.0",
+  "description": "A modern personality assessment web application for adults",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format"
+  },
+  "keywords": [
+    "personality-quiz",
+    "assessment",
+    "react",
+    "typescript"
+  ],
+  "author": "Desire Dimensions",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

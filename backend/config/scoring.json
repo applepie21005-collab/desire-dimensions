@@ -1,0 +1,29 @@
+{
+  "method": "grid_2d",
+  "x_axis": "spontaneity",
+  "y_axis": "intensity",
+  "description": "Scoring uses a 2D grid where spontaneity (X) and intensity (Y) determine the archetype. Other dimensions add nuance but don't change the primary archetype.",
+  "normalization": {
+    "method": "cap_to_range",
+    "min": -3,
+    "max": 3,
+    "description": "Final dimension scores are capped to -3 to +3 range"
+  },
+  "ranges": {
+    "high": { "min": 1, "max": 3, "label": "High" },
+    "medium": { "min": -1, "max": 1, "label": "Medium" },
+    "low": { "min": -3, "max": -1, "label": "Low" }
+  },
+  "grid_mapping": {
+    "description": "Maps (spontaneity_range, intensity_range) to archetype_id",
+    "high_high": "wildfire",
+    "high_medium": "butterfly",
+    "high_low": "nomad",
+    "medium_high": "ember",
+    "medium_medium": "spark",
+    "medium_low": "improviser",
+    "low_high": "architect",
+    "low_medium": "devotee",
+    "low_low": "sage"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "dimensions": [
+    {
+      "id": "spontaneity",
+      "name": "Spontaneity ↔ Ritual",
+      "description": "Measures your preference for novelty and improvisation versus consistency and predictability.",
+      "low_label": "Ritual (Predictable, Planned, Consistent)",
+      "high_label": "Spontaneity (Improvisational, Adventurous, Chaotic)",
+      "min": -3,
+      "max": 3
+    },
+    {
+      "id": "intensity",
+      "name": "Intensity ↔ Tenderness",
+      "description": "Reflects your preferred energy level and physical intensity in intimate moments.",
+      "low_label": "Tenderness (Gentle, Soft, Intimate)",
+      "high_label": "Intensity (Passionate, Demanding, Physically Intense)",
+      "min": -3,
+      "max": 3
+    },
+    {
+      "id": "cerebral",
+      "name": "Cerebral ↔ Instinctual",
+      "description": "Indicates whether you lead with your mind or your body when it comes to attraction.",
+      "low_label": "Instinctual (Spontaneous, Immediate, Physical)",
+      "high_label": "Cerebral (Thoughtful, Anticipatory, Mental)",
+      "min": -3,
+      "max": 3
+    },
+    {
+      "id": "exhibitionist",
+      "name": "Exhibitionist ↔ Private",
+      "description": "Measures your comfort with sharing your desires and being known versus keeping things private.",
+      "low_label": "Private (Discreet, Internal, Confidential)",
+      "high_label": "Exhibitionist (Expressive, Shared, Transparent)",
+      "min": -3,
+      "max": 3
+    }
+  ]
+}
